@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <title>HTML Responsive</title>
+  </head>
+  <body>
+    <!-- How to Responsive Images -->
+    <!-- <img src="tree.jpg" style="max-width: 100%;height: auto;" alt="Tree"> -->
+
+    <!-- Resize the browser window to see how the image blow changes depending on the width -->
+    <picture> 
+      <source srcset="tree.jpg" media="(max-width: 600px)">
+      <source srcset="space.jpg" media="(min-width: 1500px)">
+      <img src="tree.jpg" alt="Tree">
+    </picture>
+  </body>
+</html>
